@@ -1,0 +1,143 @@
+.side {
+  height: 100vh;
+  width: 300px;
+  background-color: cornflowerblue;
+  margin-top: 71px;
+  position:static;
+  
+  /* padding: 20px; */
+}
+.checkbox {
+  cursor: pointer;
+  color: aliceblue;
+  background-color: darkgrey;
+  align-items: center;
+  opacity: 20px;
+}
+.checkbox input {
+  margin-right: 20px;
+}
+.table {
+  color: rgb(10, 28, 28);
+  font-size: 15px;
+  border-collapse: separate;
+  border-spacing: 40px 0;
+}
+.heading {
+  font-size: 15px;
+  color: white;
+  text-decoration: underline;
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: cornflowerblue;
+  position: fixed;
+  top: 0;
+  margin-bottom: 2px;
+  display: flex;
+}
+.nav input {
+  margin-left: 200px;
+  margin-top: 20px;
+  height: 30px;
+  width: 500px;
+  border: none;
+}
+.shoe {
+  margin-left: 30px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 27px;
+}
+.profile {
+  margin-left: 40px;
+  margin-top: 27px;
+  text-align: right;
+  cursor: pointer;
+  color: white;
+}
+.profile:hover {
+  color: black;
+}
+.search {
+  font-size: 20px;
+}
+.cart {
+  margin-left: 40px;
+  margin-top: 27px;
+  color:white;
+  cursor: pointer;
+}
+.cart:hover{
+  color:black;
+}
+
+.wish{
+  margin-left: 30px;
+  margin-top: 27px;
+  color:white;
+  cursor: pointer;
+}
+.wish:hover{
+  color:black;
+}
+.help{
+  margin-left: 30px;
+  margin-top: 27px;
+  color:white;
+  cursor: pointer;
+}
+.help:hover{
+  color:black;
+}
+.img{
+  margin-top: 100px;
+   margin-left: 35px;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+ 
+}
+.img > div {
+  width: 30%;
+  margin-bottom: 20px; 
+  box-sizing: border-box;
+ 
+}
+.img p {
+  margin: 0; 
+}
+.main{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+ 
+}
+.imageflex{
+  display: flex;
+  gap: 180px;
+  text-align: center;
+  height: 220px;
+  width: 1000px;
+  background-color: white;
+ 
+}
+.addcart{
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(73, 167, 73);
+  border: 2px solid rgb(120, 72, 72);
+  border-radius: 20px;
+
+}
+.sideimg{
+  width:250px;
+  height:140px;
+border: 4px solid white;
+  margin:25px;
+}
